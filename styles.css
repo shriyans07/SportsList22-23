@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rajdhani&family=Raleway&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #000000;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: #efefef;
+    text-decoration: none;
+    font-family: Quicksand;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3);
+    text-decoration: underline;
+    color: #b40606;
+    cursor: pointer;
+}
+
+.title {
+    font-family: Rajdhani;
+    text-align: center;
+    color: #efefef;
+}
+
+.title:hover{
+    color: #b40606;
+    cursor: pointer;
+}
+
+.title-h{
+    font-size: 8em;
+}
+
+.title-f{
+    font-size: 6em;
+    padding: 0.5em 0.5em;
+}
+
+.page-header{
+    background-color: #000000;
+    background-position: top;
+    padding: 75px;
+}
+
+.footer{
+    background-color: #000000;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.place {
+    max-width: 1000px;
+    margin: 1em;
+    padding: 50px 1.5em 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.place-header{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.place-header:hover{
+    color: #b40606;
+    cursor: pointer;
+}
+
+.place-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.place-img:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.place-p{
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.section-header{
+    font-size: 4em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.section-header:hover{
+    color: #b40606;
+    cursor: pointer;
+}
+
+.place-p:hover{
+    color: #b40606;
+    cursor: pointer;
+}
+
+.btn{
+    font-size: 2.5em;
+    background-color: #efefef;
+    color: #000000;
+    margin-bottom: 100px;
+    border-radius: 10%;
+    width: 250px;
+    height: 125px;
+}
+
+.btn:hover{
+    background-color: #b40606;
+    cursor: pointer;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#prev-btn{
+    font-size: 1em;
+    background-color: #efefef;
+    color: #000000;
+    margin-bottom: 100px;
+    border-radius: 10%;
+    width: 100px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+#prev-btn:hover{
+    background-color: #b40606;
+    cursor: pointer;
+}
+
+#next-btn{
+    font-size: 1em;
+    background-color: #efefef;
+    color: #000000;
+    margin-bottom: 100px;
+    border-radius: 10%;
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+#next-btn:hover{
+    background-color: #b40606;
+    cursor: pointer;
+}
+
+.carousel-container {
+    max-width: 1000px;
+    margin: 1em;
+    padding: 50px 1.5em 50px;
+  }
+  
+  .carousel-slide {
+    display: flex;
+    width: 100%;
+    margin-left: 550px;
+    margin-right: 550px;
+  }
+  
+  .carousel-slide img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .carousel-controls {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 450px;
+    margin-right: auto;
+  }
+
+  
+
+
+
